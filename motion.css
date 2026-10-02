@@ -43,21 +43,6 @@ html[data-motion="enabled"] [data-reveal].is-visible {
   transform: translate3d(0, 0, 0);
   clip-path: inset(0);
 }
-html[data-motion="enabled"] .steps-grid {
-  position: relative;
-}
-html[data-motion="enabled"] .steps-grid::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -18px;
-  width: 2px;
-  background: var(--accent);
-  transform-origin: top;
-  transform: scaleY(var(--step-progress, 0));
-  pointer-events: none;
-}
 html[data-motion="enabled"] .faq-list article {
   transform: translateX(35px);
 }
@@ -156,9 +141,6 @@ html[data-motion="enabled"] .service {
   }
   html[data-motion="enabled"] [data-reveal].is-visible {
     transform: none;
-  }
-  html[data-motion="enabled"] .steps-grid::after {
-    left: -10px;
   }
 }
 @media (prefers-reduced-motion: reduce) {

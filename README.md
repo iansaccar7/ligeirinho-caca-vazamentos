@@ -18,7 +18,7 @@ Acesse http://localhost:8000. Não há instalação de dependências nem etapa d
 - `style.css`: layout, tipografia e responsividade.
 - `script.js`: validação, mensagem do WhatsApp e ano do rodapé.
 - `motion.css` e `motion.js`: animações progressivas, com suporte a movimento reduzido. Sem JavaScript, o conteúdo continua visível.
-- Fontes locais DM Sans e Barlow Condensed, acompanhadas de suas licenças OFL.
+- Fonte local DM Sans, acompanhada da licença OFL.
 
 Contato: (11) 95927-2852. O formulário prepara uma mensagem para https://wa.me/5511959272852; o envio final acontece no WhatsApp. Nenhum dado é armazenado pelo site.
 
